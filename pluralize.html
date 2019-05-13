@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function pluralize(word)
+      {
+        if(word == "mouse")
+        {
+          console.log("mice");
+        }
+        else if(word == "moose")
+        {
+          console.log("moose");
+        }
+        else if(word == "automation")
+        {
+          console.log("automata");
+        }
+        else {
+          return word + "s";
+        }
+      }
+      pluralize("Star");
+
+      var answer = prompt("Type the word: ")
+      var result = pluralize(answer);
+      console.log(result);
+    </script>
+  </body>
+</html>
